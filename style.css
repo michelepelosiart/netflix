@@ -32,12 +32,12 @@ html, body, nav, main {
     color: white;
 }
 
-img.card {
+.container img {
     width: 100%;
     height: auto;
     transition: transform 0.3s;
 }
-img.card:hover {
+.container img:hover {
     transform: scale(1.1);
 }
 
