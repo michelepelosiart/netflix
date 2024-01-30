@@ -1,0 +1,43 @@
+• {margin:0px;padding:0px;box-sizing:border-box;}
+
+html, nav, main {
+    background-color: #141414;
+ }
+ .navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(228, 227, 227);
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-right-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-right-icons i {
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+img.card {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+img.card:hover {
+    transform: scale(1.1);
+}
+
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
